@@ -143,7 +143,6 @@ header .headerTop .cart{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2% !important;
 }
 
 header .headerTop .cart i{
@@ -1014,6 +1013,7 @@ section.newsletter div button:hover{
 footer{
     height: 50vh;
     width: 100%;
+    /* border: 2px solid; */
     background-color: var(--gris-footer);
     z-index: 1;
 }
@@ -1191,23 +1191,26 @@ footer .footerBottom{
 }
 
 @media screen and (max-width: 767px) {
-    header{
-        height: 150vh;
-        /* border: 2px solid; */
-    }
-
-    header .headerTop .cart{
-        margin-right: 2% !important;
-    }
-
     header .headerTop .cart::after{
+        content: '2';
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--saumon);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -10px;
+        right: 10px;
+        color: white;
+        font-size: 12px;
         display: none;
     }
 
     header .headerBottom{
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
     }
 
     header .headerBottom .headerBottomLeft{
@@ -1218,30 +1221,8 @@ footer .footerBottom{
         margin-bottom: 10% !important;
     }
 
-    swiper-slide .swipperImage1 .swipperImage1Item p{
-        text-align: start;
-    }
-
-    swiper-slide .swipperImage2 .swipperImage1Item p{
-        text-align: start;
-    }
-
-    swiper-slide .swipperImage1 .swipperImage1Item a{
-        width: 80%;
-    }
-
-    swiper-slide .swipperImage2 .swipperImage1Item a{
-        width: 80%;
-    }
-
     .product{
         height: 300vh;
-        width: 90%;
-        /* border: 2px solid; */
-    }
-
-    .title{
-        margin-bottom: 5% !important;
     }
 
     .product .productItems{
@@ -1265,27 +1246,27 @@ footer .footerBottom{
     }
 
     .categories{
-        height: 400vh;
-        /* border: 1px solid; */
+        height: 200vh;
     }
 
     .categories .menu {
         /* border: 2px solid; */
-        height: 5%;
+        height: 10%;
         width: 100%;
     }
 
     .categories .menu ul{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
     }
     
     .categories .productItems{
         display: grid;
         grid-template-columns: 1fr;
-        gap: 10px;
         /* border: 1px solid; */
-        height: 93%;
+        height: 100%;
 
     }
 
@@ -1294,9 +1275,9 @@ footer .footerBottom{
     }
 
     .blog{
-        height: 130vh;
+        height: 100vh;
         /* border: 2px solid; */
-        
+        margin-top: 100% !important;
     }
 
     .blogContainerItems{
@@ -1357,7 +1338,7 @@ footer .footerBottom{
 
 
     footer{
-        height: 150vh;
+        height: 100vh;
     }
 
     footer .footerTop{
@@ -1390,11 +1371,20 @@ footer .footerBottom{
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
-    header {
-        height: 200vh;
-    }
-
     header .headerTop .cart::after{
+        content: '2';
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--saumon);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -10px;
+        right: 10px;
+        color: white;
+        font-size: 12px;
         display: none;
     }
 
@@ -1436,27 +1426,27 @@ footer .footerBottom{
     }
 
     .categories{
-        height: 600vh;
-        /* border: 1px solid; */
+        height: 500vh;
     }
 
     .categories .menu {
         /* border: 2px solid; */
-        height: 5%;
+        height: 10%;
         width: 100%;
     }
 
     .categories .menu ul{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
     }
     
     .categories .productItems{
         display: grid;
         grid-template-columns: 1fr;
-        gap: 10px;
         /* border: 1px solid; */
-        height: 93%;
+        height: 100%;
 
     }
 
@@ -1467,6 +1457,7 @@ footer .footerBottom{
     .blog{
         height: 300vh;
         /* border: 2px solid; */
+        margin-top: 60% !important;
     }
 
     .blogContainerItems{
