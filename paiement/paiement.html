@@ -54,134 +54,143 @@
     </div>
   </header>
   <section class="paiement">
+    <div class="container">
         <div class="titrePaiement">
             <button  class="titreSimple"> <a href="../panier1/panier1.html" class="liens">SHOPPING CART</a></button>
             <button class="titreSimple" > <a href="../panier2/panier2.html" class="liens">WISHLIST</a></button>
             <button class="titreSelectionner"><a href="paiement.html" class="liens">CHECK OUT</a></button>
             <button class="titreSimple"><a href="../validation/validation.html" class="liens">ORDER COMPLETE</a> </button>
         </div>
-        <div class="infosPaiement">
-            <div class="detailsPaiement">
-                <h4>BILLING DETAILS </h4>
-                <hr class="hrDetailsPaiement">
-                <input type="text" placeholder="Your name here..." class="infosClient">
-                <input type="text" placeholder="Email address here..." class="infosClient">
-                <input type="text" placeholder="Phone here..." class="infosClient">
-                <input type="text" placeholder="Company name here" class="infosClient">
-                <select class="infosClient dropdown">
-                    <option value="">Country</option>
-                </select>
-                <select class="infosClient dropdown">
-                    <option value="">State</option>
-                </select>
-                <select class="infosClient dropdown">
-                    <option value="">Town/City</option>
-                </select>
-                <textarea class="infosClient1">Your address here...</textarea> 
+        <div class="contenuePaienment">
+          <div>
+            <h4>BILLING DETAILS </h4>
+            <hr class="hrDetailsPaiement">
+            <div class="infodet">
+              <input type="text" placeholder="Your name here..." class="infosClient">
+              <input type="text" placeholder="Email address here..." class="infosClient">
+              <input type="text" placeholder="Phone here..." class="infosClient">
+              <input type="text" placeholder="Company name here" class="infosClient">
+              <select class="infosClient dropdown">
+                <option value="">Country</option>
+            </select>
+            <select class="infosClient dropdown">
+                <option value="">State</option>
+            </select>
+            <select class="infosClient dropdown">
+                <option value="">Town/City</option>
+            </select>
+            <textarea class="infosClient">Your address here...</textarea> 
             </div>
-            <div class="clientPaiement">
-                <h4>SHIP TO DIFFERENT ADDRESS </h4>
-                <hr class="hrDetailsPaiement">
-                <input type="text" placeholder="Your name here..." class="infosClient">
-                <input type="text" placeholder="Email address here..." class="infosClient">
-                <input type="text" placeholder="Phone here..." class="infosClient">
-                <input type="text" placeholder="Company name here" class="infosClient">
-                <select class="infosClient dropdown">
-                    <option value="">Country</option>
-                </select>
-                <select class="infosClient dropdown">
-                    <option value="">State</option>
-                </select>
-                <select class="infosClient dropdown">
-                    <option value="">Town/City</option>
-                </select>
-                <textarea class="infosClient1">Your address here...</textarea> 
+
+          </div>
+          <div>
+            <h4>SHIP TO DIFFERENT ADDRESS </h4>
+            <hr class="hrDetailsPaiement">
+            <div class="infodet">
+              <input type="text" placeholder="Your name here..." class="infosClient">
+              <input type="text" placeholder="Email address here..." class="infosClient">
+              <input type="text" placeholder="Phone here..." class="infosClient">
+              <input type="text" placeholder="Company name here" class="infosClient">
+              <select class="infosClient dropdown">
+                <option value="">Country</option>
+            </select>
+            <select class="infosClient dropdown">
+                <option value="">State</option>
+            </select>
+            <select class="infosClient dropdown">
+                <option value="">Town/City</option>
+            </select>
+            <textarea class="infosClient">Your address here...</textarea> 
             </div>
-            <div class="sommePaiement">
-                <h4>OUR ORDER</h4>
-                <hr class="hrDetailsPaiement">
-                <table class="table">
-                    <thead class="table-light">
-                      <tr>
-                        <th >Product</th>
-                        <th >Total</th>
+
+          </div>
+          <div class="sommePaiement">
+            <h4>OUR ORDER</h4>
+            <hr class="hrDetailsPaiement">
+            <table class="table">
+                <thead class="table-light">
+                  <tr>
+                    <th >Product</th>
+                    <th >Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Dummy Product Name x 2</td>
+                    <td>$86.00</td>
+                  </tr>
+                  <tr>
+                    <td>Dummy Product Name x 1</td>
+                    <td>$69.00</td>
+                  </tr>
+                  <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$155.00</td>
+                  </tr>
+                  <tr>
+                    <td>Shipping and Handing</td>
+                    <td>$15.00</td>
+                  </tr>
+                  <tr>
+                    <td>Vat</td>
+                    <td>$00.00</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td style="color: #C87065;">Order Total	</td>
+                        <td style="color: #C87065;">$170.00</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Dummy Product Name x 2</td>
-                        <td>$86.00</td>
-                      </tr>
-                      <tr>
-                        <td>Dummy Product Name x 1</td>
-                        <td>$69.00</td>
-                      </tr>
-                      <tr>
-                        <td>Cart Subtotal</td>
-                        <td>$155.00</td>
-                      </tr>
-                      <tr>
-                        <td>Shipping and Handing</td>
-                        <td>$15.00</td>
-                      </tr>
-                      <tr>
-                        <td>Vat</td>
-                        <td>$00.00</td>
-                      </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td style="color: #C87065;">Order Total	</td>
-                            <td style="color: #C87065;">$170.00</td>
-                          </tr>
-                    </tfoot>
-                  </table>
-            </div>
-            <div class="methodPaiement">
-                <h4>PAYMENT METHOD</h4>
-                <hr class="hrDetailsPaiement">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          DIRECT BANK TRANSFER
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            CHEQUE PAYMENT
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            PAYPAL
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                    </div>      
-                </div> 
-                    <button class="placeolder"> <a href="validation.html">PLACE OLDER</a></button> 
-            </div>
+                </tfoot>
+              </table>
         </div>
-    </section> 
+        <div class="methodPaiement">
+          <h4>PAYMENT METHOD</h4>
+          <hr class="hrDetailsPaiement">
+          <div class="accordion  " id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    DIRECT BANK TRANSFER
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      CHEQUE PAYMENT
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      PAYPAL
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                 
+              </div>      
+          </div> 
+          <a href="validation.html" class="placeolder" type="button">PLACE OLDER</a> 
+          
+        </div>
+    </div>
+  </section> 
     <footer>
       <div class="footerTop">
           <div class="footerTopItems">
